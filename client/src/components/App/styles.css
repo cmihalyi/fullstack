@@ -1,0 +1,167 @@
+/* .date {
+  width: 190px;
+}
+
+.message {
+  width: auto;
+}
+
+.category {
+  width: 140px;
+}
+
+.amount {
+  width: 110px;
+}
+
+.ui.table .controls {
+  width: 130px;
+  text-align: center;
+}
+
+.ui.input {
+  width: 100%;
+} */
+
+.table {
+  margin-top: 10rem;
+}
+
+.table .header {
+  padding: 0;
+}
+
+.table .header .row {
+  align-items: center;
+}
+
+.table .body .row {
+  min-height: 66px;
+}
+
+.table .segments.row .cell {
+  border-left: none;
+}
+
+.table .segments.row .cell.date {
+  flex: 1 0 190px;
+}
+
+.table .segments.row .cell.date input{
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+
+.table .segments.row .cell.message {
+  flex: 1 1 100%;
+}
+
+.table .segments.row .cell.category {
+  flex: 1 0 162px;
+}
+
+.table .segments.row .cell.amount {
+  flex: 1 0 120px;
+}
+
+.table .segments.row .cell.controls {
+  flex: 1 0 135px;
+}
+
+header {
+  display: flex;
+  min-height: 5rem;
+  background: lightgrey;
+}
+
+main .table-row {
+  border-bottom: 1px solid lightgrey;
+}
+
+footer {
+  display: flex;
+  flex: 1;
+  min-height: 4rem;
+  background: lightgrey;
+}
+
+.table-row {
+  display: flex;
+  flex: 1;
+  padding: 0 .5rem;
+  min-height: 4rem;
+  -ms-align-items: center;
+    align-items: center;
+}
+
+.table-cell {
+  padding: 0 .5rem;
+}
+
+.table-cell.date{
+  flex: 1 0 178px;
+}
+
+.table-cell.message{
+  flex: 1 1 37%;
+}
+
+.table-cell.category{
+  flex: 1 0 162px;
+}
+
+.table-cell.amount{
+  flex: 1 0 100px;
+}
+
+.table-cell.controls{
+  flex: 1 0 120px;
+}
+
+.segment.body {
+  padding: 0;
+}
+
+.segment.body .segments {
+  -ms-align-items: center;
+  align-items: center;
+  margin: 0;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.segment.body .segments:nth-child(even) {
+  background-color: #f3f4f5;
+}
+
+.segment.body .segments .segment{
+  border-left: 0;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
